@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+td.pet{
+    width: 144px;
+    height: 144px;
+    text-align: center;
+    border: 1px solid rgb(80, 80, 80);
+    font-size: 48px;
+    
+    background-color: rgb(100, 100, 100);
+}
+
+td.osam{
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    border: 1px solid rgb(80, 80, 80);
+    background-color: rgb(100, 100, 100);
+    font-size: 30px;
+}
+
+td.deset{
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    border: 1px solid rgb(80, 80, 80);
+    background-color: rgb(100, 100, 100);
+    font-size: 24px;
+}
+
+#nazad{
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+table{
+    margin: auto;
+}
+
+#petpet{
+    display: none;
+}
+
+#osamosam{
+    display: none;
+}
+
+#desetdeset{
+    display: none;
+}
+
+#trenutni-poeni{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#igra-nazad-dugme{
+    font-weight: bold;
+}

@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+#rez-naslov{
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    color: white;
+    font-size: 50px;
+}
+
+.rezultati{
+    width: 100%;
+    height: 18%;
+    margin: auto;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(50, 50, 50);
+}
+
+.prethodni-rezultat{
+    width: 100%;
+    height: 20%;
+    margin: auto;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(50, 50, 50);
+}
+
+.prazandiv{
+    height: 5%;
+}
+
+#rez-nazad-dugme{
+    font-weight: bold;
+}
+
+.ispis{
+    
+    margin: auto;
+    width: 25%;
+    display: flex;
+    float: left;
+    justify-content: center;
+}
+
+.sredina{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    float: left;
+    justify-content: center;
+}
+
+#potpis{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(70, 70, 70);
+}
+
+#vas-rez{
+    border-color: red !important;
+}

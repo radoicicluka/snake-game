@@ -1,0 +1,65 @@
+#uputstvo-naslov{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#uputstvo-tekst{
+    max-width: fit-content;
+    margin: auto;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(50, 50, 50);
+}
+
+#uputstvo-tekst-linija{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+#tezina{
+    color: white;
+}
+
+#tezina-naslov{
+    font-weight: bold;
+    padding-top: 40px;
+    color: white;
+    font-size: 50px;
+}
+
+#igraj{
+    padding-top: 60px;
+}
+
+#igraj-dugme{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#rez{
+    padding-top: 20px;
+}
+
+#rez-dugme{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dugme-stil{
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+}

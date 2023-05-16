@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZMIJICA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="igra.css">
+    <script src="zmijica-igra.js"></script>
+    <!-- <script src="zmijica-uputstvo.js"></script> -->
+</head>
+<body id="igra">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-sm-0 side"></div>
+            <div class="col-md-6 col-sm-8 justify-content-center">
+                <div class="text-center" id="trenutni-poeni"></div>
+                <table id="petpet">
+                    <tr>
+                        <td id="0p" class="pet"></td>
+                        <td id="1p" class="pet"></td>
+                        <td id="2p" class="pet"></td>
+                        <td id="3p" class="pet"></td>
+                        <td id="4p" class="pet"></td>
+                    </tr>
+                    <tr>
+                        <td id="5p" class="pet"></td>
+                        <td id="6p" class="pet"></td>
+                        <td id="7p" class="pet"></td>
+                        <td id="8p" class="pet"></td>
+                        <td id="9p" class="pet"></td>
+                    </tr>
+                    <tr>
+                        <td id="10p" class="pet"></td>
+                        <td id="11p" class="pet"></td>
+                        <td id="12p" class="pet"></td>
+                        <td id="13p" class="pet"></td>
+                        <td id="14p" class="pet"></td>
+                    </tr>
+                    <tr>
+                        <td id="15p" class="pet"></td>
+                        <td id="16p" class="pet"></td>
+                        <td id="17p" class="pet"></td>
+                        <td id="18p" class="pet"></td>
+                        <td id="19p" class="pet"></td>
+                    </tr>
+                    <tr>
+                        <td id="20p" class="pet"></td>
+                        <td id="21p" class="pet"></td>
+                        <td id="22p" class="pet"></td>
+                        <td id="23p" class="pet"></td>
+                        <td id="24p" class="pet"></td>
+                    </tr>
+                </table>
+                <!-- ---------------------------------------------- -->
+                <table id="osamosam">
+                    <tr>
+                        <td id="0o" class="osam"></td>
+                        <td id="1o" class="osam"></td>
+                        <td id="2o" class="osam"></td>
+                        <td id="3o" class="osam"></td>
+                        <td id="4o" class="osam"></td>
+                        <td id="5o" class="osam"></td>
+                        <td id="6o" class="osam"></td>
+                        <td id="7o" class="osam"></td>
+                    </tr>
+                    <tr>
+                        <td id="8o" class="osam"></td>
+                        <td id="9o" class="osam"></td>
+                        <td id="10o" class="osam"></td>
+                        <td id="11o" class="osam"></td>
+                        <td id="12o" class="osam"></td>
+                        <td id="13o" class="osam"></td>
+                        <td id="14o" class="osam"></td>
+                        <td id="15o" class="osam"></td>
+                    </tr>
+                    <tr>
+                        <td id="16o" class="osam"></td>
+                        <td id="17o" class="osam"></td>
+                        <td id="18o" class="osam"></td>
+                        <td id="19o" class="osam"></td>
+                        <td id="20o" class="osam"></td>
+                        <td id="21o" class="osam"></td>
+                        <td id="22o" class="osam"></td>
+                        <td id="23o" class="osam"></td>
+                    </tr>
+                    <tr>
+                        <td id="24o" class="osam"></td>
+                        <td id="25o" class="osam"></td>
+                        <td id="26o" class="osam"></td>
+                        <td id="27o" class="osam"></td>
+                        <td id="28o" class="osam"></td>
+                        <td id="29o" class="osam"></td>
+                        <td id="30o" class="osam"></td>
+                        <td id="31o" class="osam"></td>
+                    </tr>
+                    <tr>
+                        <td id="32o" class="osam"></td>
+                        <td id="33o" class="osam"></td>
+                        <td id="34o" class="osam"></td>
+                        <td id="35o" class="osam"></td>
+                        <td id="36o" class="osam"></td>
+                        <td id="37o" class="osam"></td>
+                        <td id="38o" class="osam"></td>
+                        <td id="39o" class="osam"></td>
+                    </tr>
+                    <tr>
+                        <td id="40o" class="osam"></td>
+                        <td id="41o" class="osam"></td>
+                        <td id="42o" class="osam"></td>
+                        <td id="43o" class="osam"></td>
+                        <td id="44o" class="osam"></td>
+                        <td id="45o" class="osam"></td>
+                        <td id="46o" class="osam"></td>
+                        <td id="47o" class="osam"></td>
+                    </tr>
+                    <tr>
+                        <td id="48o" class="osam"></td>
+                        <td id="49o" class="osam"></td>
+                        <td id="50o" class="osam"></td>
+                        <td id="51o" class="osam"></td>
+                        <td id="52o" class="osam"></td>
+                        <td id="53o" class="osam"></td>
+                        <td id="54o" class="osam"></td>
+                        <td id="55o" class="osam"></td>
+                    </tr>
+                    <tr>
+                        <td id="56o" class="osam"></td>
+                        <td id="57o" class="osam"></td>
+                        <td id="58o" class="osam"></td>
+                        <td id="59o" class="osam"></td>
+                        <td id="60o" class="osam"></td>
+                        <td id="61o" class="osam"></td>
+                        <td id="62o" class="osam"></td>
+                        <td id="63o" class="osam"></td>
+                    </tr>
+                </table>
+                <!-- ---------------------------------------------- -->
+                <table id="desetdeset">
+                    <tr>
+                        <td id="0" class="deset"></td>
+                        <td id="1" class="deset"></td>
+                        <td id="2" class="deset"></td>
+                        <td id="3" class="deset"></td>
+                        <td id="4" class="deset"></td>
+                        <td id="5" class="deset"></td>
+                        <td id="6" class="deset"></td>
+                        <td id="7" class="deset"></td>
+                        <td id="8" class="deset"></td>
+                        <td id="9" class="deset"></td>
+                    </tr>
+                    <tr>
+                        <td id="10" class="deset"></td>
+                        <td id="11" class="deset"></td>
+                        <td id="12" class="deset"></td>
+                        <td id="13" class="deset"></td>
+                        <td id="14" class="deset"></td>
+                        <td id="15" class="deset"></td>
+                        <td id="16" class="deset"></td>
+                        <td id="17" class="deset"></td>
+                        <td id="18" class="deset"></td>
+                        <td id="19" class="deset"></td>
+                    </tr>
+                    <tr>
+                        <td id="20" class="deset"></td>
+                        <td id="21" class="deset"></td>
+                        <td id="22" class="deset"></td>
+                        <td id="23" class="deset"></td>
+                        <td id="24" class="deset"></td>
+                        <td id="25" class="deset"></td>
+                        <td id="26" class="deset"></td>
+                        <td id="27" class="deset"></td>
+                        <td id="28" class="deset"></td>
+                        <td id="29" class="deset"></td>
+                    </tr>
+                    <tr>
+                        <td id="30" class="deset"></td>
+                        <td id="31" class="deset"></td>
+                        <td id="32" class="deset"></td>
+                        <td id="33" class="deset"></td>
+                        <td id="34" class="deset"></td>
+                        <td id="35" class="deset"></td>
+                        <td id="36" class="deset"></td>
+                        <td id="37" class="deset"></td>
+                        <td id="38" class="deset"></td>
+                        <td id="39" class="deset"></td>
+                    </tr>
+                    <tr>
+                        <td id="40" class="deset"></td>
+                        <td id="41" class="deset"></td>
+                        <td id="42" class="deset"></td>
+                        <td id="43" class="deset"></td>
+                        <td id="44" class="deset"></td>
+                        <td id="45" class="deset"></td>
+                        <td id="46" class="deset"></td>
+                        <td id="47" class="deset"></td>
+                        <td id="48" class="deset"></td>
+                        <td id="49" class="deset"></td>
+                    </tr>
+                    <tr>
+                        <td id="50" class="deset"></td>
+                        <td id="51" class="deset"></td>
+                        <td id="52" class="deset"></td>
+                        <td id="53" class="deset"></td>
+                        <td id="54" class="deset"></td>
+                        <td id="55" class="deset"></td>
+                        <td id="56" class="deset"></td>
+                        <td id="57" class="deset"></td>
+                        <td id="58" class="deset"></td>
+                        <td id="59" class="deset"></td>
+                    </tr>
+                    <tr>
+                        <td id="60" class="deset"></td>
+                        <td id="61" class="deset"></td>
+                        <td id="62" class="deset"></td>
+                        <td id="63" class="deset"></td>
+                        <td id="64" class="deset"></td>
+                        <td id="65" class="deset"></td>
+                        <td id="66" class="deset"></td>
+                        <td id="67" class="deset"></td>
+                        <td id="68" class="deset"></td>
+                        <td id="69" class="deset"></td>
+                    </tr>
+                    <tr>
+                        <td id="70" class="deset"></td>
+                        <td id="71" class="deset"></td>
+                        <td id="72" class="deset"></td>
+                        <td id="73" class="deset"></td>
+                        <td id="74" class="deset"></td>
+                        <td id="75" class="deset"></td>
+                        <td id="76" class="deset"></td>
+                        <td id="77" class="deset"></td>
+                        <td id="78" class="deset"></td>
+                        <td id="79" class="deset"></td>
+                    </tr>
+                    <tr>
+                        <td id="80" class="deset"></td>
+                        <td id="81" class="deset"></td>
+                        <td id="82" class="deset"></td>
+                        <td id="83" class="deset"></td>
+                        <td id="84" class="deset"></td>
+                        <td id="85" class="deset"></td>
+                        <td id="86" class="deset"></td>
+                        <td id="87" class="deset"></td>
+                        <td id="88" class="deset"></td>
+                        <td id="89" class="deset"></td>
+                    </tr>
+                    <tr>
+                        <td id="90" class="deset"></td>
+                        <td id="91" class="deset"></td>
+                        <td id="92" class="deset"></td>
+                        <td id="93" class="deset"></td>
+                        <td id="94" class="deset"></td>
+                        <td id="95" class="deset"></td>
+                        <td id="96" class="deset"></td>
+                        <td id="97" class="deset"></td>
+                        <td id="98" class="deset"></td>
+                        <td id="99" class="deset"></td>
+                    </tr>
+                </table>
+                <div id="nazad"><div class="btn btn-secondary btn-lg" id="igra-nazad-dugme">NAZAD</div></div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <table class="table position-relative top-50 start-50 translate-middle text-center border-0" id="tasteri">
+                    <tr>
+                        <td class="border-0"><div class="btn btn-secondary btn-lg" hidden></div></td>
+                        <td class="border-0"><div class="btn btn-secondary btn-lg" id="gore">&uarr;</div></td>
+                        <td class="border-0"><div class="btn btn-secondary btn-lg" hidden></div></td>
+                    </tr>
+                    <tr>
+                        <td class="border-0"><div class="btn btn-secondary btn-lg" id="levo">&larr;</div></td>
+                        <td class="border-0"><div class="btn btn-secondary btn-lg" hidden></div></td>
+                        <td class="border-0"><div class="btn btn-secondary btn-lg" id="desno">&rarr;</div></td>
+                    </tr>
+                    <tr>
+                        <td class="border-0"><div class="btn btn-secondary btn-lg" hidden></div></td>
+                        <td class="border-0"><div class="btn btn-secondary btn-lg" id="dole">&darr;</div></td>
+                        <td class="border-0"><div class="btn btn-secondary btn-lg" hidden></div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
